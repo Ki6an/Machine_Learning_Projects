@@ -1,5 +1,5 @@
 import tensorflow.keras as keras
-# from preprocess import generate_training_sequences, SEQUENCE_LENGTH
+from Preprocess import generate_training_sequences, SEQUENCE_LENGTH
 
 OUTPUT_UNITS = 38
 NUM_UNITS = [256]
